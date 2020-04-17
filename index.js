@@ -6,8 +6,9 @@ const bot = new VkBot({
     group_id: GROUP_ID,
 })
 
-bot.command('/start', (ctx) => {
+bot.on((ctx) => {
     ctx.reply('Hello!')
 })
+
 
 bot.startPolling()
