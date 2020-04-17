@@ -1,3 +1,3 @@
 module.exports = {
-    [require('./mentionAll/index').callName]: require('./mentionAll/index').action,   console.log('вызвали');
+    [require('./mentionAll/index').callName]: require('./mentionAll/index').action,
     }
