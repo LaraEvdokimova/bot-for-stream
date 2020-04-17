@@ -21,6 +21,7 @@ bot.on((ctx) => {
             const regCallName = new RegExp(callName, 'i');
             if (regCallName.test(message.test)){
                 console.log('match: ${callName}');
+                skillList[callName](message, bot, GROUP_ID);
                 return;
             }
         }
