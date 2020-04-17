@@ -7,6 +7,7 @@ const bot = new VkBot({
 })
 
 bot.on((ctx) => {
+    console.log(ctx);
     ctx.reply('Hello!')
 })
 
