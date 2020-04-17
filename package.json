@@ -1,0 +1,22 @@
+{
+  "name": "bot-for-stream",
+  "version": "1.0.0",
+  "description": "bot for vk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaraEvdokimova/bot-for-stream.git"
+  },
+  "author": "lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaraEvdokimova/bot-for-stream/issues"
+  },
+  "homepage": "https://github.com/LaraEvdokimova/bot-for-stream#readme",
+  "dependencies": {
+    "node-vk-bot-api": "^3.3.4"
+  }
+}
