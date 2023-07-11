@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/LaraEvdokimova/bot-for-stream#readme",
   "dependencies": {
-    "node-vk-bot-api": "^3.3.4"
+    "node-vk-bot-api": "^3.5.0"
   }
 }
